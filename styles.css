@@ -61,3 +61,52 @@ button,
     color: #e5e7eb;
 }
 
+/*above basic styling, below flexbox */
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    gap: 16px;
+}
+
+.header {
+    padding-top: 16px;
+    padding-right: 120px;
+    padding-bottom: 50px;
+    padding-left: 120px;
+}
+
+.head-content {
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+.picture {
+    border: 1px solid black;
+    height: 15em;
+    width: 30em;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.info {
+    height: 15em;
+    width: 30em;
+}
+
+button {
+    font-size: 18px;
+    border-radius: 8px;
+    padding: 5px 12px;
+    border: none;
+    
+}
