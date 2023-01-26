@@ -49,6 +49,7 @@ button,
 
 .quote {
     background-color: #e5e7eb;
+    padding: 20px;
 }
 
 .quote-text {
@@ -78,6 +79,7 @@ ul {
     padding-right: 120px;
     padding-bottom: 50px;
     padding-left: 120px;
+    margin: 0;
 }
 
 .head-content {
@@ -135,5 +137,38 @@ button {
 h2 {
     margin: 0;
     padding: 0;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.author {
+    align-self: flex-end;
+    margin: 15px;
+}
+
+.quote-text {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.sign-up {
+    width: 800px;
+    height: 100px;
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
     
