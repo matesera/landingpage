@@ -163,6 +163,7 @@ h2 {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    border-radius: 10px;
     
 }
 
@@ -170,5 +171,12 @@ h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
 }
     
