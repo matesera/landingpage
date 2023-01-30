@@ -1,6 +1,12 @@
 body {
     display: flex;
     flex-direction: column;
+    margin: 0;
+}
+
+html {
+    margin: 0;
+    min-height: 100%;
 }
 
 .header,
@@ -64,10 +70,7 @@ button,
 
 /*above basic styling, below flexbox */
 
-.nav {
-    display: flex;
-    justify-content: space-between;
-}
+
 
 ul {
     display: flex;
@@ -80,15 +83,24 @@ ul {
     padding-bottom: 50px;
     padding-left: 120px;
     margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 600px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    /*position: fixed; breaks the flex for some reason*/
 }
 
 .head-content {
     display: flex;
+    flex: 1;
     justify-content: space-between;
     align-items: center;
     padding-top: 20px;
-    
-
 }
 
 .picture img {
@@ -109,11 +121,21 @@ button {
     border-radius: 8px;
     padding: 5px 12px;
     border: none;
+    color: white;
     
+}
+
+.illustration {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
 }
 
 .content-header {
     text-align: center;
+    margin-bottom: 40px;
 }
 
 .cards {
@@ -126,7 +148,7 @@ button {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 10px;
+    padding: 20px;
 }
 
 .card img {
@@ -143,6 +165,8 @@ h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    height: 400px;
 }
 
 .author {
@@ -159,12 +183,19 @@ h2 {
 .sign-up {
     width: 800px;
     height: 100px;
-    margin: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     border-radius: 10px;
+    color: white;
     
+}
+
+.sign-up-button {
+    border: 1px solid white;
+    border-radius: 8px;
 }
 
 .content {
